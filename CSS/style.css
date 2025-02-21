@@ -1,0 +1,766 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+#hero{
+    background-image: url(./images/herobackground.png);
+    height: 720px;
+  position: relative;
+}
+.nav-list{
+display: flex;
+color: var(--white-color);
+font-family: 'Geometria', sans-serif;
+        gap: 12px;                                    
+list-style-type: none;
+transition: 1s ease;
+ 
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+nav .nav-list li:hover{
+    color: var(--red-color);
+}
+nav .nav-list li:first-child{
+    margin-left: 268px;
+   margin-top: 24px;height: 10px;
+}
+nav .nav-list li:nth-child(2){
+    margin-left: 24px;
+    margin-top: 42px;height: 10px;
+}
+nav .nav-list li:nth-child(6){
+    margin-right: 23px;
+    margin-top: 42px;height: 10px;
+}
+nav .nav-list li:nth-child(3){
+    margin-top: 42px;
+height: 10px;
+}
+nav .nav-list li:nth-child(4){
+    margin-top: 42px;
+height: 10px;
+}
+nav .nav-list li:nth-child(5){
+    margin-top: 42px;
+height: 10px;
+}
+nav .nav-list li:nth-child(7){
+margin-top: 37px;
+height: 30px;
+width: 168px;
+font-size: 10px;
+border: solid var(--red-color);
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+nav .nav-list li:nth-child(8){
+    margin-top: 30px;
+    margin-left: 23px;
+}
+nav .nav-list li:nth-child(9){
+    margin-top: 30px;
+
+}
+nav .nav-list li:nth-child(10){
+    margin-top: 30px;
+
+}
+#hero{
+    position: relative;
+    
+}
+.hero-title{
+    color: var(--white-color);
+    font-family: 'Geometria', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 185px;
+    left: 256px;
+}
+.go-to-catalog{
+    color: var(--white-color);
+    font-family: 'Geometria', sans-serif;
+    font-size: 12px;
+
+    border: solid var(--red-color);
+box-sizing: border-box;
+width: 216px;
+height: 43px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 256px;
+top: 431px;
+}
+.go-to-catalog:hover{
+    color: var(--red-color);
+}
+.linescontainer{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+.lines{
+    height: 4px;
+    width: 112px;
+    background-color: var(--white-color);
+    margin-top: 548px;
+}
+
+#info{
+background-color: var(--black-color);
+
+}
+.info-list{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 380px;
+    justify-content: space-around;
+    padding: 0;
+    align-items: center;
+}
+.info-list li{
+    color: var(--white-color);
+    font-family: 'Geometria', sans-serif;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shape-for-info{
+    z-index: 100 ; 
+    position: relative ; 
+    clip-path: polygon(25% 0%, 100% 0, 100% 81%, 75% 100%, 0 99%, 0 26%);
+    background: var(--red-color);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shape-for-info-content{
+    z-index: 101;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.description-title-1{
+  
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    color: var(--black-color);
+    font-size: 50px;
+   
+    padding-top: 88px;
+    padding-bottom: 12px;
+    border-bottom: 4px solid var(--red-color);
+}
+.description-titles{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+.description-title-2{
+    font-family: 'Geometria', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    
+}
+#description{
+    background-image: url(./images/descriptionbackground.png);
+    height: 1244px;
+    width: 1730px;
+    position: relative;
+    position: relative;
+    position: relative;
+}
+.card img{
+    height: 280px;
+    width: 240px;
+}
+.description-imgs-row-1{
+display: flex;
+flex-direction: row;
+
+gap: 24px;
+
+position: absolute;
+top: 400px;
+left: 500px;
+} 
+.description-imgs-row-2{
+    display: flex;
+    flex-direction: row;
+  
+    gap: 24px;
+   
+    position: absolute;
+    top: 704px;
+    left: 500px;
+}
+.description-imgs-row-1 .card img:nth-child(2){
+display: none;
+}
+.img1-text{
+    display: none;
+}
+.img1-text p:last-child{
+display: none;
+}
+#services{
+    background-image: url(./images/background-for-services.png);
+    height: 1104px;
+    position: relative;
+    
+}.background-img{
+    position: absolute;
+    z-index: -1;
+    height: 1100px;
+}
+.services-title-1{
+    padding-bottom: 8px;
+    color: var(--white-color);
+    font-family: 'Geometria', sans-serif; 
+ position: absolute;
+    font-weight: 500;
+    font-size: 30px;
+    border-bottom: 4px solid var(--red-color);
+    left: 856px;
+    top: 65px;
+}
+.services-title-2{
+    color: var(--white-color);
+    font-family: 'Geometria', sans-serif; 
+    position: absolute;
+    top: 135px;
+    left: 630px;
+    font-weight: 400;
+}
+.img-for-hover-services {
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.card:hover .img-for-hover-services {
+    opacity: 1;
+    visibility: visible;
+    z-index: 101;
+}
+.img1-text1{
+    font-family: 'Geometria', sans-serif; 
+    color: var(--white-color); 
+    font-size: 20px;
+font-weight: 400;
+position: absolute;
+top: 115px;
+left: 35px;
+visibility: hidden;
+transition: 0.1s ease;
+} 
+.img1-text2{
+    color: var(--white-color);
+    border: solid var(--red-color);
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    font-family: 'Geometria', sans-serif;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 40px;
+    visibility: hidden;
+    transition: 0.1s;
+}
+.card:hover .img1-text1 {
+    visibility: visible;
+    z-index: 102;
+}
+.card:hover .img1-text2 {
+    visibility: visible;
+    z-index: 102;
+}
+
+.img2-text1{
+    font-family: 'Geometria', sans-serif; 
+    color: var(--white-color); 
+    font-size: 20px;
+font-weight: 400;
+position: absolute;
+top: 115px;
+left: 350px;
+visibility: hidden;
+transition: 0.1s ease;
+} 
+.img2-text2{
+    color: var(--white-color);
+    border: solid var(--red-color);
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    font-family: 'Geometria', sans-serif;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 310px;
+    visibility: hidden;
+    transition: 0.1s;
+}
+.card:hover .img2-text1 {
+    visibility: visible;
+    z-index: 102;
+}
+.card:hover .img2-text2 {
+    visibility: visible;
+    z-index: 102;
+}
+.card p:hover {
+    color: var(--red-color);
+}
+
+.img4-text1{
+    font-family: 'Geometria', sans-serif; 
+    color: var(--white-color); 
+    font-size: 20px;
+font-weight: 400;
+position: absolute;
+top: 100px;
+left: 45px;
+visibility: hidden;
+transition: 0.1s ease;
+} 
+.img4-text2{
+    color: var(--white-color);
+    border: solid var(--red-color);
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    font-family: 'Geometria', sans-serif;
+    position: absolute;
+    top: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 40px;
+    visibility: hidden;
+    transition: 0.1s;
+}
+.card:hover .img4-text1 {
+    visibility: visible;
+    z-index: 102;
+}
+.card:hover .img4-text2 {
+    visibility: visible;
+    z-index: 102;
+}
+
+.img3-text1{
+    font-family: 'Geometria', sans-serif; 
+    color: var(--white-color); 
+    font-size: 20px;
+font-weight: 400;
+position: absolute;
+top: 110px;
+left: 575px;
+visibility: hidden;
+transition: 0.1s ease;
+} 
+.img3-text2{
+    color: var(--white-color);
+    border: solid var(--red-color);
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    font-family: 'Geometria', sans-serif;
+    position: absolute;
+    top: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 570px;
+    visibility: hidden;
+    transition: 0.1s;
+}
+.card:hover .img3-text1 {
+    visibility: visible;
+    z-index: 102;
+}
+.card:hover .img3-text2 {
+    visibility: visible;
+    z-index: 102;
+}
+
+.img5-text1{
+    font-family: 'Geometria', sans-serif; 
+    color: var(--white-color); 
+    font-size: 20px;
+font-weight: 400;
+position: absolute;
+top: 100px;
+left: 340px;
+visibility: hidden;
+transition: 0.1s ease;
+} 
+.img5-text2{
+    color: var(--white-color);
+    border: solid var(--red-color);
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    font-family: 'Geometria', sans-serif;
+    position: absolute;
+    top: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 300px;
+    visibility: hidden;
+    transition: 0.1s;
+}
+.card:hover .img5-text1 {
+    visibility: visible;
+    z-index: 102;
+}
+.card:hover .img5-text2 {
+    visibility: visible;
+    z-index: 102;
+}
+
+.img6-text1{
+    font-family: 'Geometria', sans-serif; 
+    color: var(--white-color); 
+    font-size: 20px;
+font-weight: 400;
+position: absolute;
+top: 100px;
+left: 590px;
+visibility: hidden;
+transition: 0.1s ease;
+} 
+.img6-text2{
+    color: var(--white-color);
+    border: solid var(--red-color);
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    font-family: 'Geometria', sans-serif;
+    position: absolute;
+    top: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 570px;
+    visibility: hidden;
+    transition: 0.1s;
+}
+.card:hover .img6-text1 {
+    visibility: visible;
+    z-index: 102;
+}
+.card:hover .img6-text2 {
+    visibility: visible;
+    z-index: 102;
+}
+.main-triangle-services{
+    position: absolute;
+    left: 1100px;
+    top: 300px;
+    z-index: 54;
+}
+.card1 img{
+    width: 80px;
+    padding-bottom: 105px;
+    z-index: 32;
+}
+.red-shape img{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    z-index: 32;
+}
+.card1 p{
+    font-family: 'Geometria', sans-serif;
+    color: var(--white-color);
+}
+.card1{
+    width: 605px; 
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 375px;
+    left: 275px;
+    z-index: 32;
+}
+.card1-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-self: center;
+padding-left: 43px;
+z-index: 32;
+}
+.hover-services-card1{
+    position: absolute;
+    top: -30px;
+    left: -75px;
+    height: 200px;
+    width: 605px;
+    clip-path: polygon(7% 0, 100% 0, 100% 100%, 0 99%, 0 29%);
+    background: linear-gradient(100deg, rgba(177,46,24,1) 0%, rgba(22,22,22,0.1825105042016807) 84%);
+    z-index: 30;
+    visibility: hidden;
+    transition: visibility 0.3s ease-in-out;
+}
+.card1:hover .hover-services-card1{
+visibility: visible;
+
+}
+.card2-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-self: center;
+padding-left: 43px;
+z-index: 32;
+}
+.card2 p{
+    font-family: 'Geometria', sans-serif;
+    color: var(--white-color);
+}
+.card2{
+    width: 605px; 
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 600px;
+    left: 275px;
+    z-index: 32;
+}
+.card2 img{
+width: 76px;
+height: 48px;
+
+    z-index: 32;
+    padding-top: 35px;
+}
+.red-shape-2 img{
+    width: 120px;
+    height: 120px;
+    position: absolute ;
+    top: -30px;
+    left: -20px;
+    z-index: 32;
+}
+.hover-services-card2{
+    position: absolute;
+    top: -30px;
+    left: -75px;
+    height: 200px;
+    width: 605px;
+    clip-path: polygon(7% 0, 100% 0, 100% 100%, 0 99%, 0 29%);
+    background: linear-gradient(100deg, rgba(177,46,24,1) 0%, rgba(22,22,22,0.1825105042016807) 84%);
+    z-index: 30;
+    visibility: hidden;
+    transition: visibility 0.3s ease-in-out;
+}
+.card2:hover .hover-services-card2{
+visibility: visible;
+}
+
+
+a{
+    all: unset;
+}
+
+
+.card3-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-self: center;
+padding-left: 43px;
+z-index: 32;
+}
+.card3 p{
+    font-family: 'Geometria', sans-serif;
+    color: var(--white-color);
+    z-index: 32;
+}
+.card3{
+    width: 605px; 
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 825px;
+    left: 275px;
+    
+}
+.battery-card3{
+width: 76px;
+height: 48px;
+z-index: 54;
+    padding-top: 40px;
+}
+.red-shape-3 img{
+    width: 120px;
+    height: 120px;
+    position: absolute ;
+    top: 0px;
+    left: -20px;
+  z-index: 54;
+}
+.hover-services-card3{
+    position: absolute;
+    top: -30px;
+    left: -75px;
+    height: 200px;
+    width: 605px;
+    clip-path: polygon(7% 0, 100% 0, 100% 100%, 0 99%, 0 29%);
+    background: linear-gradient(100deg, rgba(177,46,24,1) 0%, rgba(22,22,22,0.1825105042016807) 84%);
+    z-index: 30;
+    visibility: hidden;
+    transition: visibility 0.3s ease-in-out;
+}
+.card3:hover .hover-services-card3{
+visibility: visible;
+z-index: 1;
+}
+
+.triangle1{
+    position: absolute;
+    top: 760px;
+    left: 1075px;
+}
+.triangle2{
+position: absolute;
+top: 920px;
+left: 1450px;
+}
+.triangle3{
+    position: absolute;
+    top: 650px;
+    left: 1475px;
+    z-index: 55;
+}
+.triangle4{
+    position: absolute;
+    top: 445px;
+    left: 1220px;   
+}
+.triangle5{
+    position: absolute;
+    top: 300px;
+    left: 1450px;
+}
+
+.ask-question p{
+    width: 200px;
+    height: 40px;
+    color: var(--white-color);
+    border: solid var(--red-color);
+    font-family: 'Geometria', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    position: absolute;
+    top: 1020px;
+    left: 840px;
+}
+.ask-question:hover p{
+    color: var(--red-color);
+}
+
+
+
+
+#about-company{
+background-image: url(./images/background-about-company.png);
+height: 667px;
+position: relative;
+}
+.transparent-img-aboutcompany img{
+    position: absolute;
+    z-index: 2;
+}
+.about-company-title{
+    border-bottom: solid var(--red-color);
+    font-family: 'Geometria', sans-serif;
+    color: var(--white-color);
+    width: 230px;
+    font-size: 30px;
+    font-weight: 500;
+   position: absolute;
+    z-index: 54;
+    top: 80px;
+    left: 832px;
+}
+.about-company-main-title p:first-child{
+    font-family: 'Geometria', sans-serif;
+    color: var(--white-color);
+    padding: 15px;
+}
+.about-company-main-title p:last-child{
+    font-family: 'Geometria', sans-serif;
+    color: var(--white-color);
+    border: solid var(--red-color);
+    width: 175px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.about-company-main-title p:last-child:hover{
+    color: var(--red-color);
+}
+.about-company-main-title{
+   position: absolute;
+   left: 720px;
+   top: 200px;
+    z-index: 50; 
+    border: solid var(--red-color);
+    height: 220px;
+    width: fit-content;
+    background-image: url(./images/transparent-about-company.png);
+}
+
+.man-picture-about-company{
+    background-image: url(./images/man-picture-about-company.png);
+    clip-path: polygon(100% 0%, 100% 77%, 79% 100%, 0 100%, 0 26%, 29% 0);  
+    border: 3px solid var(--red-color);
+    width: 300px;
+    height: 300px;
+    z-index: 55;
+    position: absolute;
+    left: 370px;
+    top: 170px;
+}
