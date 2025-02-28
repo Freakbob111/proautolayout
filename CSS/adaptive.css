@@ -1,0 +1,26 @@
+@media screen and (max-width:320px ) {
+    nav .nav-list li:first-child {
+        margin-left: -40px;
+        margin-top: 24px;
+        height: 10px;
+    }
+    nav .nav-list li:first-child img{
+        width: 100px;
+        height: 50px;
+    }
+    .textnavbar{
+        display: none;
+    }
+    nav .nav-list li:nth-child(7){
+    
+        display: none;
+    }
+.nav-300px{
+    visibility: visible;
+}
+nav .nav-list li:nth-child(8){
+    margin-left: -10px;
+}
+       
+
+}
