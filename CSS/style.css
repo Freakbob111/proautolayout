@@ -6,7 +6,8 @@
     width: 1900px;
   }
 #hero{
-    background-image: url(./images/herobackground.png);
+    background-image:  url(./images/herobackground.png);
+ 
     height: 720px;
   position: relative;
   width: 1920px;
@@ -793,7 +794,7 @@ background-color: var(--gray-color);
     height: 250px; /* Specify a height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 1000; /* Stay on top */
     top: 0;
     left: 0;
     background-color: #111; /* Black*/
